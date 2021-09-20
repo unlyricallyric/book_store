@@ -1,4 +1,6 @@
-export const Book = ({ img, title, author }) => {
+import React from 'react'
+
+const Book = ({ img, title, author }) => {
 	// attribute, eventHandler
 	// onClick, onMouseOver
 	const clickHandler = () => {
@@ -28,3 +30,5 @@ export const Book = ({ img, title, author }) => {
 		</article>
 	)
 }
+
+export default Book
